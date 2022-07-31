@@ -1,0 +1,2 @@
+-:
+	swift run --build-tests
