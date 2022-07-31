@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "myApp",
+    name: "myApp.swift",
     platforms: [
         .macOS(.v10_15)
     ],

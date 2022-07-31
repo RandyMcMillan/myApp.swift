@@ -9,7 +9,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let appMenu = NSMenuItem()
         appMenu.submenu = NSMenu()
         appMenu.submenu?.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
-        let mainMenu = NSMenu(title: "My Swift Script")
+        let mainMenu = NSMenu(title: "myApp.swift")
         mainMenu.addItem(appMenu)
         NSApplication.shared.mainMenu = mainMenu
 
@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.setContentSize(size)
         window.styleMask = [.closable, .miniaturizable, .resizable, .titled]
         window.delegate = windowDelegate
-        window.title = "My Swift Script"
+        window.title = "myApp.swift"
 
         let view = NSHostingView(rootView: HelloView())
         view.frame = CGRect(origin: .zero, size: size)
