@@ -1,0 +1,3 @@
+[submodule "nostr-sdk-ios"]
+	path = nostr-sdk-ios
+	url = https://github.com/RandyMcMillan/nostr-sdk-ios.git
